@@ -1,0 +1,27 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+
+
+@import url(css/tabuleiro.css);
+
+
+h1{
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.movimento{
+box-shadow: inset 0 0 0 4px rgba(0,255,0,0.6);
+}
+
+.selecionada{
+box-shadow: inset 0 0 0 4px rgba(0,0,255,0.7);
+}
+
+
+.xeque{
+background-color: rgba(255,0,0,0.7) !important;
+box-shadow: inset 0 0 10px red;
+}
