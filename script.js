@@ -43,7 +43,19 @@ casa.classList.add("branca");
 else
 casa.classList.add("preta");
 
-casa.innerHTML = jogo[linha][coluna];
+let peca = jogo[linha][coluna];
+
+casa.innerHTML = peca;
+
+if(peca !== ""){
+let cor = corDaPeca(peca);
+
+if(cor === "branco"){
+casa.classList.add("peca-branca");
+}else{
+casa.classList.add("peca-preta");
+}
+}
 
 casa.dataset.linha = linha;
 casa.dataset.coluna = coluna;

@@ -61,3 +61,13 @@ background: #f0d9b5;
 .preta{
 background: #b58863;
 }
+
+
+.peca-preta{
+ filter:brightness(1);
+}
+
+.peca-branca{
+filter:brightness(1);
+}
+
